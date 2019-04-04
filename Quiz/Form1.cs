@@ -150,18 +150,7 @@ namespace Quiz
             this.Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-            //    List<Question> list = new List<Question>();
-            //    list.Sort();
-            //    foreach (int x in list)
-            //    {
-            //        questionLbx.Items.Add(list);
-            //    }
-
-            //}
-        }
+       
     }
     class Question
     {
@@ -230,9 +219,7 @@ namespace Quiz
             set { this.divide = value; }
         }
 
-        //public string GetDisplayTest()
-        //    {
-        //        return num1 + op + num2 + "=";
+    
 
         public string GetStudentAnswer()
         {
